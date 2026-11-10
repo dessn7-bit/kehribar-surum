@@ -5,7 +5,7 @@ Bu depo yalnızca **Kehribar Vadisi** oyununun Android kurulum dosyalarını (AP
 ## Kurulum / güncelleme
 
 1. Telefonda [Releases](../../releases/latest) sayfasını aç.
-2. `KehribarVadisi_<sürüm>.apk` dosyasını indir ve aç.
+2. Adı `KehribarVadisi_` ile başlayan `.apk` dosyasını indir ve aç.
 3. Android ilk seferde "bu kaynaktan yüklemeye izin ver" diye sorar: izin ver, sonra **Kur / Güncelle**'ye dokun.
 
 Oyun zaten kuruluysa üzerine güncellenir, kayıt (para, gün, dinozorlar) korunur.
@@ -16,7 +16,7 @@ Oyun zaten kuruluysa üzerine güncellenir, kayıt (para, gün, dinozorlar) koru
 
 Her Release'te iki dosya vardır:
 
-- `KehribarVadisi_<sürüm>.apk` — oyun.
+- `KehribarVadisi_<sürüm>_<yapı numarası>.apk` — oyun.
 - `surum.json` — `versionCode`, `versionName`, APK indirme adresi, kısa değişiklik notu, APK'nın SHA-256 özeti ve boyutu. Oyun bu dosyayı okur.
 
 Bütün APK'lar aynı anahtarla imzalanır. İmza sertifikasının SHA-256 özeti:
